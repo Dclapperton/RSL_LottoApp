@@ -1,0 +1,22 @@
+﻿@model RSL_LottoApp.Models.Home
+
+<div class="jumbotron">
+    <h1>Open Draw Data</h1>
+</div>
+
+
+@foreach (var draw in Model.DrawResults)
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="lottoContainer">
+                <h2>@draw.DrawDisplayName</h2>
+                <p>
+                    <img src="@draw.DrawLogoUrl" alt="@draw.DrawDisplayName" />
+                </p>
+                <p><b>Draw date:</b> @draw.DrawDate.ToString("dd/MM/yyyy")</p>
+                <p><b>Jackpot:</b> @draw.Div1Amount.ToString("C", System.Globalization.CultureInfo.GetCultureInfo("en-au"))</p>
+            </div>
+        </div>
+    </div>
+}

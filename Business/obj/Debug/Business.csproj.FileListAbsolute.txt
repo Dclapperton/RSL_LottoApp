@@ -1,0 +1,8 @@
+C:\Users\david\source\repos\RSL_LottoApp\Business\bin\Debug\Business.dll
+C:\Users\david\source\repos\RSL_LottoApp\Business\bin\Debug\Business.pdb
+C:\Users\david\source\repos\RSL_LottoApp\Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\david\source\repos\RSL_LottoApp\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\david\source\repos\RSL_LottoApp\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\RSL_LottoApp\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\david\source\repos\RSL_LottoApp\Business\obj\Debug\Business.dll
+C:\Users\david\source\repos\RSL_LottoApp\Business\obj\Debug\Business.pdb
