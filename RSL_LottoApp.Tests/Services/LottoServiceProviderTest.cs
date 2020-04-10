@@ -7,7 +7,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace RSL_LottoApp.Tests.Controllers
 {
     [TestClass]
-    public class HomeControllerTest
+    public class LottoServiceProviderTest
     {
         private ILottoServiceProvider _lottoServiceProvider;
 

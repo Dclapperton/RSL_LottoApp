@@ -102,9 +102,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Business\Business.csproj">
+    <ProjectReference Include="..\Business\RSL_Business.csproj">
       <Project>{9B02E97E-1066-4380-AAE5-4E07CADF6F72}</Project>
-      <Name>Business</Name>
+      <Name>RSL_Business</Name>
     </ProjectReference>
     <ProjectReference Include="..\RSL_LottoApp\RSL_LottoApp.csproj">
       <Project>{FE053B05-A846-41BC-9481-8388D4512827}</Project>
