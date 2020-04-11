@@ -93,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\LottoServiceProviderTest.cs" />
+    <Compile Include="Services\OpenDrawsServiceProviderTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -102,8 +102,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Business\RSL_Business.csproj">
-      <Project>{9B02E97E-1066-4380-AAE5-4E07CADF6F72}</Project>
+    <ProjectReference Include="..\RSL_Business\RSL_Business.csproj">
+      <Project>{C4BD5D41-3B3E-4E26-8F56-4A3230928EE9}</Project>
       <Name>RSL_Business</Name>
     </ProjectReference>
     <ProjectReference Include="..\RSL_LottoApp\RSL_LottoApp.csproj">

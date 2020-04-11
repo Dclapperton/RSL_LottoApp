@@ -19,7 +19,8 @@ namespace RSL_LottoApp
             };
 
             container.RegisterInstance<HttpClient>(httpClient, InstanceLifetime.Singleton);
-            container.RegisterType<ILottoServiceProvider, LottoServiceProvider>();
+            container.RegisterType<IOpenDrawsServiceProvider, OpenDrawsServiceProvider>();
+            container.RegisterType<ILatestResultsServiceProvider, LatestResultsServiceProvider>();
 
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         }

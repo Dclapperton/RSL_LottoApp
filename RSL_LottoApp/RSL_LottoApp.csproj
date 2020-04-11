@@ -192,8 +192,8 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Business\RSL_Business.csproj">
-      <Project>{9b02e97e-1066-4380-aae5-4e07cadf6f72}</Project>
+    <ProjectReference Include="..\RSL_Business\RSL_Business.csproj">
+      <Project>{C4BD5D41-3B3E-4E26-8F56-4A3230928EE9}</Project>
       <Name>RSL_Business</Name>
     </ProjectReference>
   </ItemGroup>

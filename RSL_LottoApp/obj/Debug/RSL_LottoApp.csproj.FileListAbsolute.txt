@@ -48,7 +48,6 @@ C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\roslyn\vbc.rsp
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\roslyn\VBCSCompiler.exe
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\Antlr3.Runtime.dll
-C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\Business.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\Microsoft.AspNet.TelemetryCorrelation.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\Microsoft.Web.Infrastructure.dll
@@ -66,7 +65,6 @@ C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\Unity.Abstractions.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\Unity.Container.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\Unity.Mvc5.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\WebGrease.dll
-C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\Business.pdb
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\System.Web.Helpers.xml
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\System.Web.Mvc.xml
@@ -87,3 +85,5 @@ C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\obj\Debug\RSL_LottoApp.csp
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\obj\Debug\RSL_LottoApp.csproj.CopyComplete
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\obj\Debug\RSL_LottoApp.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\obj\Debug\RSL_LottoApp.pdb
+C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\RSL_Business.dll
+C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp\bin\RSL_Business.pdb

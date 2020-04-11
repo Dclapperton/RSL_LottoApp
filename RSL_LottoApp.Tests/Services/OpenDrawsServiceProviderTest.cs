@@ -7,9 +7,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace RSL_LottoApp.Tests.Controllers
 {
     [TestClass]
-    public class LottoServiceProviderTest
+    public class OpenDrawsServiceProviderTest
     {
-        private ILottoServiceProvider _lottoServiceProvider;
+        private IOpenDrawsServiceProvider _openDrawsServiceProvider;
 
         [TestInitialize]
         public void Setup()
@@ -19,20 +19,20 @@ namespace RSL_LottoApp.Tests.Controllers
                 BaseAddress = new Uri("https://data.api.thelott.com")
             };
 
-            _lottoServiceProvider = new LottoServiceProvider(httpClient);
+            _openDrawsServiceProvider = new OpenDrawsServiceProvider(httpClient);
         }
 
         [TestMethod]
         public void AssertSuccessFlag_IsTrue()
         {
-            var drawRequest = new DrawRequest()
+            var drawRequest = new OpenDrawsRequest()
             {
                 CompanyId = "GoldenCasket",
                 MaxDrawCount = 20,
-                OptionalProducgtFilter = new[] { "TattsLotto", "MonWedLotto", "OzLotto", "MonWedLotto", "Powerball", "Super66" }
+                OptionalProductFilter = new[] { "TattsLotto", "MonWedLotto", "OzLotto", "MonWedLotto", "Powerball", "Super66" }
             };
 
-            var results = _lottoServiceProvider.GetOpenDraws(drawRequest).Result;
+            var results = _openDrawsServiceProvider.GetOpenDraws(drawRequest).Result;
 
             // Assert
             Assert.IsTrue(results.Success);
@@ -41,14 +41,14 @@ namespace RSL_LottoApp.Tests.Controllers
         [TestMethod]
         public void AssertErrorInfo_IsNull()
         {
-            var drawRequest = new DrawRequest()
+            var drawRequest = new OpenDrawsRequest()
             {
                 CompanyId = "GoldenCasket",
                 MaxDrawCount = 20,
-                OptionalProducgtFilter = new[] { "TattsLotto", "MonWedLotto", "OzLotto", "MonWedLotto", "Powerball", "Super66" }
+                OptionalProductFilter = new[] { "TattsLotto", "MonWedLotto", "OzLotto", "MonWedLotto", "Powerball", "Super66" }
             };
 
-            var results = _lottoServiceProvider.GetOpenDraws(drawRequest).Result;
+            var results = _openDrawsServiceProvider.GetOpenDraws(drawRequest).Result;
 
             // Assert
             Assert.IsNull(results.ErrorInfo);

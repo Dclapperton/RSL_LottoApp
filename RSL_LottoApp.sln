@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSL_LottoApp", "RSL_LottoAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSL_LottoApp.Tests", "RSL_LottoApp.Tests\RSL_LottoApp.Tests.csproj", "{44358AE8-6719-484B-9F5B-D829FE2C07DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSL_Business", "Business\RSL_Business.csproj", "{9B02E97E-1066-4380-AAE5-4E07CADF6F72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSL_Business", "RSL_Business\RSL_Business.csproj", "{C4BD5D41-3B3E-4E26-8F56-4A3230928EE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{44358AE8-6719-484B-9F5B-D829FE2C07DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44358AE8-6719-484B-9F5B-D829FE2C07DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44358AE8-6719-484B-9F5B-D829FE2C07DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B02E97E-1066-4380-AAE5-4E07CADF6F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B02E97E-1066-4380-AAE5-4E07CADF6F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B02E97E-1066-4380-AAE5-4E07CADF6F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B02E97E-1066-4380-AAE5-4E07CADF6F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BD5D41-3B3E-4E26-8F56-4A3230928EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BD5D41-3B3E-4E26-8F56-4A3230928EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BD5D41-3B3E-4E26-8F56-4A3230928EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BD5D41-3B3E-4E26-8F56-4A3230928EE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

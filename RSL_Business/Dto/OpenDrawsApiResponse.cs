@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using Business.Dto.Interfaces;
+using System.Collections.Generic;
 
 namespace Business.Dto
 {
-    public class DrawApiResponse
+    public class OpenDrawsApiResponse : IDrawApiResponse
     {
         public List<Draw> Draws { get; set; }
 

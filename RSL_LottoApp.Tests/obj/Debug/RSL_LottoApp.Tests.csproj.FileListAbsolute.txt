@@ -4,7 +4,6 @@ C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\Microsoft.
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\RSL_LottoApp.Tests.dll.config
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\RSL_LottoApp.Tests.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\RSL_LottoApp.Tests.pdb
-C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\Business.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
@@ -21,7 +20,6 @@ C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\Unity.Abst
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\Unity.Container.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\System.Web.Optimization.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\Unity.Mvc5.dll
-C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\Business.pdb
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\RSL_LottoApp.pdb
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\RSL_LottoApp.dll.config
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
@@ -42,3 +40,5 @@ C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\obj\Debug\RSL_LottoA
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\obj\Debug\RSL_LottoApp.Tests.csproj.CopyComplete
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\obj\Debug\RSL_LottoApp.Tests.dll
 C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\obj\Debug\RSL_LottoApp.Tests.pdb
+C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\RSL_Business.dll
+C:\Users\david\source\repos\RSL_LottoApp\RSL_LottoApp.Tests\bin\Debug\RSL_Business.pdb

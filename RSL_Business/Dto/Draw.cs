@@ -2,18 +2,8 @@
 
 namespace Business.Dto
 {
-    public class Draw
+    public class Draw : DrawResultBase
     {
-        public string ProductId { get; set; }
-
-        public int DrawNumber { get; set; }
-
-        public string DrawDisplayName { get; set; }
-
-        public DateTime DrawDate { get; set; }
-
-        public string DrawLogoUrl { get; set; }
-
         public string DrawType { get; set; }
 
         public decimal Div1Amount { get; set; }

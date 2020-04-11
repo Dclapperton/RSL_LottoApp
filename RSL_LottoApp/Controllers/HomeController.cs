@@ -1,6 +1,8 @@
 ﻿using Business.Dto;
 using Business.Services;
+using RSL_Business.Constants;
 using RSL_LottoApp.Models;
+using System.Configuration;
 using System.Linq;
 using System.Web.Mvc;
 
@@ -8,23 +10,38 @@ namespace RSL_LottoApp.Controllers
 {
     public class HomeController : Controller
     {
-        private ILottoServiceProvider _lottoServiceProivder;
+        private IOpenDrawsServiceProvider _openDrawsServiceProvider;
+        private ILatestResultsServiceProvider _latestResultsServiceProvider;
 
-        public HomeController(ILottoServiceProvider lottoServiceProvider)
+        public HomeController(IOpenDrawsServiceProvider openDrawsServiceProvider,
+            ILatestResultsServiceProvider latestResultsServiceProvider)
         {
-            _lottoServiceProivder = lottoServiceProvider;
+            _openDrawsServiceProvider = openDrawsServiceProvider;
+            _latestResultsServiceProvider = latestResultsServiceProvider;
         }
 
         public ActionResult Index()
         {
+            var openDrawRequest = new OpenDrawsRequest()
+            {
+                CompanyId = ConfigurationManager.AppSettings[AppSettingValues.LottoCompanyId],
+                MaxDrawCount = 10,
+                OptionalProductFilter = new[] { "TattsLotto", "MonWedLotto", "OzLotto", "MonWedLotto", "Powerball", "Super66" }
+            };
+
+            var latestResultsRequest = new LatestResultsRequest()
+            {
+                CompanyId = ConfigurationManager.AppSettings[AppSettingValues.LottoCompanyId],
+                MaxDrawCountPerProduct = 10,
+                OptionalProductFilter = new[] { "TattsLotto"}
+            };
+
             var viewModel = new Home()
             {
-                DrawResults = _lottoServiceProivder.GetOpenDraws(new DrawRequest()
-                {
-                    CompanyId = "GoldenCasket",
-                    MaxDrawCount = 20,
-                    OptionalProducgtFilter = new[] { "TattsLotto", "MonWedLotto", "OzLotto", "MonWedLotto", "Powerball", "Super66" }
-                }).Result?.Draws.OrderBy(x => x.DrawDate).ToList()
+                OpenDrawItems = _openDrawsServiceProvider.GetOpenDraws(openDrawRequest)
+                .Result?.Draws.OrderBy(x => x.DrawDate).ToList(),
+                LatestResultItems = _latestResultsServiceProvider.GetLatestResults(latestResultsRequest)
+                .Result?.DrawResults.OrderBy(x => x.DrawDate).ToList()
             };
 
             return View(viewModel);
